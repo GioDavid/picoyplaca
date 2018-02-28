@@ -1,0 +1,9 @@
+C:\Users\Davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoPlacaTest\bin\Debug\PicoPlacaTest.dll
+C:\Users\Davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoPlacaTest\bin\Debug\PicoPlacaTest.pdb
+C:\Users\Davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoPlacaTest\bin\Debug\ComponentArt.Win.UI.Common.dll
+C:\Users\Davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoPlacaTest\bin\Debug\ComponentArt.Win.UI.Navigation.dll
+C:\Users\Davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoPlacaTest\bin\Debug\PicoYPlaca.exe
+C:\Users\Davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoPlacaTest\bin\Debug\PicoYPlaca.pdb
+C:\Users\Davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoPlacaTest\obj\Debug\PicoPlacaTest.csprojResolveAssemblyReference.cache
+C:\Users\Davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoPlacaTest\obj\Debug\PicoPlacaTest.dll
+C:\Users\Davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoPlacaTest\obj\Debug\PicoPlacaTest.pdb

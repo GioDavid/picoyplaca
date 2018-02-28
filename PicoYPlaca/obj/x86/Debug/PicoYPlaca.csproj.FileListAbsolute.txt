@@ -1,0 +1,13 @@
+c:\users\davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoYPlaca\bin\Debug\PicoYPlaca.exe
+c:\users\davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoYPlaca\bin\Debug\PicoYPlaca.pdb
+c:\users\davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoYPlaca\obj\x86\Debug\MainWindow.baml
+c:\users\davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoYPlaca\obj\x86\Debug\MainWindow.g.cs
+c:\users\davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoYPlaca\obj\x86\Debug\App.g.cs
+c:\users\davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoYPlaca\obj\x86\Debug\PicoYPlaca_MarkupCompile.cache
+c:\users\davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoYPlaca\obj\x86\Debug\PicoYPlaca.g.resources
+c:\users\davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoYPlaca\obj\x86\Debug\PicoYPlaca.Properties.Resources.resources
+c:\users\davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoYPlaca\obj\x86\Debug\PicoYPlaca.csproj.GenerateResource.Cache
+c:\users\davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoYPlaca\obj\x86\Debug\PicoYPlaca.exe
+c:\users\davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoYPlaca\obj\x86\Debug\PicoYPlaca.pdb
+C:\Users\Davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoYPlaca\bin\Debug\ComponentArt.Win.UI.Common.dll
+C:\Users\Davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoYPlaca\bin\Debug\ComponentArt.Win.UI.Navigation.dll

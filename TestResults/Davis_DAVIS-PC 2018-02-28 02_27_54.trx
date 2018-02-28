@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c3da782b-badd-43f9-bfec-4851d3d522f5" name="Davis@DAVIS-PC 2018-02-28 02:27:54" runUser="Davis-PC\Davis" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1720a554-5444-43b8-ac4c-8de435d5b1c9">
+    <Description>Esta es la configuración de pruebas predeterminada para una ejecución de pruebas local.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Davis_DAVIS-PC 2018-02-28 02_27_54">
+      <DeploymentItem filename="C:\Program Files\ComponentArt\UI Framework 2012 for .NET\assembly\wpf\core\ComponentArt.Win.UI.Navigation.dll" />
+      <DeploymentItem filename="C:\Users\Davis\documents\visual studio 2010\Projects\PicoYPlaca\PicoYPlaca\bin\Debug\PicoYPlaca.exe" />
+      <DeploymentItem filename="C:\Program Files\ComponentArt\UI Framework 2012 for .NET\assembly\wpf\core\ComponentArt.Win.UI.Common.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-02-28T02:27:54.1903831-05:00" queuing="2018-02-28T02:27:54.3593928-05:00" start="2018-02-28T02:27:54.4253966-05:00" finish="2018-02-28T02:27:56.3595072-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="26" executed="26" passed="25" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TimeConstructorTest" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="c689a220-8c8b-01b5-be0a-6f4025ccb33b">
+      <Execution id="fb94169a-79d5-4737-a3fd-7059aa73680f" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.TimeTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TimeConstructorTest" />
+    </UnitTest>
+    <UnitTest name="getPicoPlacaDayOfPlateWhenDayisWednesday1Test" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="f2e4a6dc-a64e-bf95-7a43-1311308f6220">
+      <Execution id="324fb06b-af85-4bc3-a967-ef8de05b8576" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.VehicleTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPicoPlacaDayOfPlateWhenDayisWednesday1Test" />
+    </UnitTest>
+    <UnitTest name="getPlateTest" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="9bc7919b-9f5b-8183-2912-3f4b59690929">
+      <Execution id="c1248bee-3234-4783-8419-910b62ad70f6" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.VehicleTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPlateTest" />
+    </UnitTest>
+    <UnitTest name="getPicoPlacaDayOfPlateWhenDayisThursday2Test" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="c172d27d-1725-8d45-ad4b-8b860c8ab8d1">
+      <Execution id="261cfa05-4f50-4f53-ba8f-76fb4250b920" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.VehicleTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPicoPlacaDayOfPlateWhenDayisThursday2Test" />
+    </UnitTest>
+    <UnitTest name="getPicoPlacaDayOfPlateWhenDayisThursday1Test" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="6b2daf42-7f54-6801-4994-17334ce69f02">
+      <Execution id="7c66c396-cc49-4525-a83c-f4fc8b6fb966" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.VehicleTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPicoPlacaDayOfPlateWhenDayisThursday1Test" />
+    </UnitTest>
+    <UnitTest name="getPicoPlacaDayOfPlateWhenDayisMondayTest" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="2d1ff8ad-904e-0073-c064-21eb1807380c">
+      <Execution id="16625c46-82d6-45ea-b36e-b031b94a1757" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.VehicleTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPicoPlacaDayOfPlateWhenDayisMondayTest" />
+    </UnitTest>
+    <UnitTest name="getPicoPlacaDayOfPlateWhenDayisFriday2Test" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="3d03e10e-d7c2-47cc-5052-8d45169888f5">
+      <Execution id="698e3333-0d98-4fd1-b1eb-4ae387714cc1" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.VehicleTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPicoPlacaDayOfPlateWhenDayisFriday2Test" />
+    </UnitTest>
+    <UnitTest name="hasCorrectFormatWhenIsCorrectTest" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="ff122efc-5fef-0112-e34a-7da52c9b85d9">
+      <Execution id="8a970d81-8579-4273-90a4-9aa6feec02bf" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.TimeTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="hasCorrectFormatWhenIsCorrectTest" />
+    </UnitTest>
+    <UnitTest name="canBeOnRoadTest" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="6a0bd2e7-3522-a594-1d70-0fba2203656d">
+      <Execution id="575db753-fab8-41d7-b9c7-8039a4540f68" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.ValidationTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canBeOnRoadTest" />
+    </UnitTest>
+    <UnitTest name="checkTimeInIntervalsWhenTimeIsNotInAnyIntervalTest" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="6c8df1ec-06c0-af4a-79e3-dc6ecb61ad1f">
+      <Execution id="2272f5a8-178e-4db2-856e-3a447e8f0d22" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.TimeTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="checkTimeInIntervalsWhenTimeIsNotInAnyIntervalTest" />
+    </UnitTest>
+    <UnitTest name="getPicoPlacaDayOfPlateWhenDayisMonday2Test" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="a636e3ce-8cdf-eec8-1199-ad7cd4869e03">
+      <Execution id="99c9e291-d5e6-4b03-8ef5-b7fe0f2cbe81" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.VehicleTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPicoPlacaDayOfPlateWhenDayisMonday2Test" />
+    </UnitTest>
+    <UnitTest name="getPicoPlacaDayOfPlateWhenDayisFriday1Test" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="066ec1dd-c403-5641-211e-14f03715197e">
+      <Execution id="6f884a83-4ca2-494b-a442-bb3a8f7c2c2f" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.VehicleTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPicoPlacaDayOfPlateWhenDayisFriday1Test" />
+    </UnitTest>
+    <UnitTest name="getPicoPlacaDayOfPlateWhenDayisWednesday2Test" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="5a91918a-c51f-2b31-07d7-443ffbf4b2e6">
+      <Execution id="9a2a0db0-4e76-438e-ad82-42f4d0673b8f" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.VehicleTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPicoPlacaDayOfPlateWhenDayisWednesday2Test" />
+    </UnitTest>
+    <UnitTest name="DateConstructorTest" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="7c45eddb-b146-c3c1-aae9-d49646e3bdab">
+      <Execution id="ef78bfee-69b6-4881-9548-0672e1ff5363" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.DateTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DateConstructorTest" />
+    </UnitTest>
+    <UnitTest name="hasCorrectFormatWhenIsNotCorrectTest" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="a211ba70-35ec-e259-365b-14fe87d9a523">
+      <Execution id="9ac58c78-ef6f-4975-96d6-616287ff4613" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.TimeTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="hasCorrectFormatWhenIsNotCorrectTest" />
+    </UnitTest>
+    <UnitTest name="VehicleConstructorTest" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="667db6a8-9899-5d57-117e-758449c0fd1e">
+      <Execution id="1137d3cf-20c0-4a60-8578-06739b7c2af6" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.VehicleTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VehicleConstructorTest" />
+    </UnitTest>
+    <UnitTest name="checkTimeInIntervalsWhenTimeIsInInterval2Test" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="7477e6a1-93af-227d-19e5-f30e34b27230">
+      <Execution id="5c2c1f3a-82a6-4c72-8b5a-80425568daea" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.TimeTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="checkTimeInIntervalsWhenTimeIsInInterval2Test" />
+    </UnitTest>
+    <UnitTest name="verifyPlateTestWithWrongFormat" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="0f98023c-16cc-edd9-effa-48857a91e141">
+      <Execution id="1ef1512c-3294-4cd2-af2b-26eb3cc8ec49" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.VehicleTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="verifyPlateTestWithWrongFormat" />
+    </UnitTest>
+    <UnitTest name="getPicoPlacaDayOfPlateWhenDayisTuesdayTest" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="b1195f37-acad-2bd4-6150-51b267e10b8e">
+      <Execution id="0256e48d-c4c7-4384-bff2-acf911693c78" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.VehicleTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPicoPlacaDayOfPlateWhenDayisTuesdayTest" />
+    </UnitTest>
+    <UnitTest name="checkTimeInIntervalsWhenTimeIsInInterval1Test" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="b14be646-4889-bafb-827e-dab299e5f65f">
+      <Execution id="da94ec12-1b5e-42c2-b6be-783a4c18c5ad" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.TimeTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="checkTimeInIntervalsWhenTimeIsInInterval1Test" />
+    </UnitTest>
+    <UnitTest name="getDayOfTheWeekFromDateTest" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="f481ecc7-e114-aea7-0081-11eb4f98100f">
+      <Execution id="e588f598-a676-4357-b7f3-1970bcddd0ac" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.DateTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getDayOfTheWeekFromDateTest" />
+    </UnitTest>
+    <UnitTest name="PlateTest" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="ba8bc033-c76e-637c-d4cf-49df988eb7fd">
+      <Execution id="6601d055-674d-4a23-9d59-ceb0bbf71d4e" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.VehicleTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PlateTest" />
+    </UnitTest>
+    <UnitTest name="getPicoPlacaDayOfPlateWhenDayisTuesday2Test" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="d18c4972-fa94-6825-d72f-3596e80cebe2">
+      <Execution id="92dbe2a5-97a7-44f9-8156-68e1aae6c2b9" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.VehicleTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPicoPlacaDayOfPlateWhenDayisTuesday2Test" />
+    </UnitTest>
+    <UnitTest name="verifyPlateTestWithRightFormat" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="c891b938-1156-5e72-5902-b4e2ca087abf">
+      <Execution id="62c27654-b40a-4791-a3c7-afeabb433f23" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.VehicleTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="verifyPlateTestWithRightFormat" />
+    </UnitTest>
+    <UnitTest name="ValidationConstructorTest" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="9a633d35-bb77-620b-735a-4b2bc2fa526a">
+      <Execution id="0ccf19b4-bc32-4139-be43-e4ec96726a42" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.ValidationTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ValidationConstructorTest" />
+    </UnitTest>
+    <UnitTest name="getPicoPlacaDayOfPlateWhenPlateisIncorrectTest" storage="c:\users\davis\documents\visual studio 2010\projects\picoyplaca\picoplacatest\bin\debug\picoplacatest.dll" id="d0fd6fc2-5467-6a6e-dfa7-6b59a8e3cfa9">
+      <Execution id="60179b09-1b1d-42f4-8677-e97684641187" />
+      <TestMethod codeBase="C:/Users/Davis/Documents/Visual Studio 2010/Projects/PicoYPlaca/PicoPlacaTest/bin/Debug/PicoPlacaTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PicoPlacaTest.VehicleTest, PicoPlacaTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPicoPlacaDayOfPlateWhenPlateisIncorrectTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="066ec1dd-c403-5641-211e-14f03715197e" executionId="6f884a83-4ca2-494b-a442-bb3a8f7c2c2f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f98023c-16cc-edd9-effa-48857a91e141" executionId="1ef1512c-3294-4cd2-af2b-26eb3cc8ec49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d1ff8ad-904e-0073-c064-21eb1807380c" executionId="16625c46-82d6-45ea-b36e-b031b94a1757" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d03e10e-d7c2-47cc-5052-8d45169888f5" executionId="698e3333-0d98-4fd1-b1eb-4ae387714cc1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a91918a-c51f-2b31-07d7-443ffbf4b2e6" executionId="9a2a0db0-4e76-438e-ad82-42f4d0673b8f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="667db6a8-9899-5d57-117e-758449c0fd1e" executionId="1137d3cf-20c0-4a60-8578-06739b7c2af6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a0bd2e7-3522-a594-1d70-0fba2203656d" executionId="575db753-fab8-41d7-b9c7-8039a4540f68" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b2daf42-7f54-6801-4994-17334ce69f02" executionId="7c66c396-cc49-4525-a83c-f4fc8b6fb966" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6c8df1ec-06c0-af4a-79e3-dc6ecb61ad1f" executionId="2272f5a8-178e-4db2-856e-3a447e8f0d22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7477e6a1-93af-227d-19e5-f30e34b27230" executionId="5c2c1f3a-82a6-4c72-8b5a-80425568daea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c45eddb-b146-c3c1-aae9-d49646e3bdab" executionId="ef78bfee-69b6-4881-9548-0672e1ff5363" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a633d35-bb77-620b-735a-4b2bc2fa526a" executionId="0ccf19b4-bc32-4139-be43-e4ec96726a42" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9bc7919b-9f5b-8183-2912-3f4b59690929" executionId="c1248bee-3234-4783-8419-910b62ad70f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a211ba70-35ec-e259-365b-14fe87d9a523" executionId="9ac58c78-ef6f-4975-96d6-616287ff4613" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a636e3ce-8cdf-eec8-1199-ad7cd4869e03" executionId="99c9e291-d5e6-4b03-8ef5-b7fe0f2cbe81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b1195f37-acad-2bd4-6150-51b267e10b8e" executionId="0256e48d-c4c7-4384-bff2-acf911693c78" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b14be646-4889-bafb-827e-dab299e5f65f" executionId="da94ec12-1b5e-42c2-b6be-783a4c18c5ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba8bc033-c76e-637c-d4cf-49df988eb7fd" executionId="6601d055-674d-4a23-9d59-ceb0bbf71d4e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c172d27d-1725-8d45-ad4b-8b860c8ab8d1" executionId="261cfa05-4f50-4f53-ba8f-76fb4250b920" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c689a220-8c8b-01b5-be0a-6f4025ccb33b" executionId="fb94169a-79d5-4737-a3fd-7059aa73680f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c891b938-1156-5e72-5902-b4e2ca087abf" executionId="62c27654-b40a-4791-a3c7-afeabb433f23" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d0fd6fc2-5467-6a6e-dfa7-6b59a8e3cfa9" executionId="60179b09-1b1d-42f4-8677-e97684641187" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d18c4972-fa94-6825-d72f-3596e80cebe2" executionId="92dbe2a5-97a7-44f9-8156-68e1aae6c2b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2e4a6dc-a64e-bf95-7a43-1311308f6220" executionId="324fb06b-af85-4bc3-a967-ef8de05b8576" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f481ecc7-e114-aea7-0081-11eb4f98100f" executionId="e588f598-a676-4357-b7f3-1970bcddd0ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff122efc-5fef-0112-e34a-7da52c9b85d9" executionId="8a970d81-8579-4273-90a4-9aa6feec02bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6f884a83-4ca2-494b-a442-bb3a8f7c2c2f" testId="066ec1dd-c403-5641-211e-14f03715197e" testName="getPicoPlacaDayOfPlateWhenDayisFriday1Test" computerName="DAVIS-PC" duration="00:00:00.0288525" startTime="2018-02-28T02:27:54.7774167-05:00" endTime="2018-02-28T02:27:55.2594443-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f884a83-4ca2-494b-a442-bb3a8f7c2c2f">
+    </UnitTestResult>
+    <UnitTestResult executionId="1ef1512c-3294-4cd2-af2b-26eb3cc8ec49" testId="0f98023c-16cc-edd9-effa-48857a91e141" testName="verifyPlateTestWithWrongFormat" computerName="DAVIS-PC" duration="00:00:00.0310011" startTime="2018-02-28T02:27:55.3284482-05:00" endTime="2018-02-28T02:27:55.3634502-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ef1512c-3294-4cd2-af2b-26eb3cc8ec49">
+    </UnitTestResult>
+    <UnitTestResult executionId="16625c46-82d6-45ea-b36e-b031b94a1757" testId="2d1ff8ad-904e-0073-c064-21eb1807380c" testName="getPicoPlacaDayOfPlateWhenDayisMondayTest" computerName="DAVIS-PC" duration="00:00:00.0357348" startTime="2018-02-28T02:27:55.4034525-05:00" endTime="2018-02-28T02:27:55.4424548-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16625c46-82d6-45ea-b36e-b031b94a1757">
+    </UnitTestResult>
+    <UnitTestResult executionId="698e3333-0d98-4fd1-b1eb-4ae387714cc1" testId="3d03e10e-d7c2-47cc-5052-8d45169888f5" testName="getPicoPlacaDayOfPlateWhenDayisFriday2Test" computerName="DAVIS-PC" duration="00:00:00.0003483" startTime="2018-02-28T02:27:55.4604558-05:00" endTime="2018-02-28T02:27:55.4794569-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="698e3333-0d98-4fd1-b1eb-4ae387714cc1">
+    </UnitTestResult>
+    <UnitTestResult executionId="9a2a0db0-4e76-438e-ad82-42f4d0673b8f" testId="5a91918a-c51f-2b31-07d7-443ffbf4b2e6" testName="getPicoPlacaDayOfPlateWhenDayisWednesday2Test" computerName="DAVIS-PC" duration="00:00:00.0013694" startTime="2018-02-28T02:27:55.4974579-05:00" endTime="2018-02-28T02:27:55.5164590-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a2a0db0-4e76-438e-ad82-42f4d0673b8f">
+    </UnitTestResult>
+    <UnitTestResult executionId="1137d3cf-20c0-4a60-8578-06739b7c2af6" testId="667db6a8-9899-5d57-117e-758449c0fd1e" testName="VehicleConstructorTest" computerName="DAVIS-PC" duration="00:00:00.0055128" startTime="2018-02-28T02:27:55.5214593-05:00" endTime="2018-02-28T02:27:55.5424605-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1137d3cf-20c0-4a60-8578-06739b7c2af6">
+    </UnitTestResult>
+    <UnitTestResult executionId="575db753-fab8-41d7-b9c7-8039a4540f68" testId="6a0bd2e7-3522-a594-1d70-0fba2203656d" testName="canBeOnRoadTest" computerName="DAVIS-PC" duration="00:00:00.0678150" startTime="2018-02-28T02:27:55.5534611-05:00" endTime="2018-02-28T02:27:55.6344657-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="575db753-fab8-41d7-b9c7-8039a4540f68">
+      <Output>
+        <ErrorInfo>
+          <Message>Error de Assert.AreEqual. Se esperaba &lt;True&gt;, pero es &lt;False&gt;. </Message>
+          <StackTrace>   en PicoPlacaTest.ValidationTest.canBeOnRoadTest() en C:\Users\Davis\Documents\Visual Studio 2010\Projects\PicoYPlaca\PicoPlacaTest\ValidationTest.cs:línea 94
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7c66c396-cc49-4525-a83c-f4fc8b6fb966" testId="6b2daf42-7f54-6801-4994-17334ce69f02" testName="getPicoPlacaDayOfPlateWhenDayisThursday1Test" computerName="DAVIS-PC" duration="00:00:00.0003333" startTime="2018-02-28T02:27:55.6514667-05:00" endTime="2018-02-28T02:27:55.6614673-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c66c396-cc49-4525-a83c-f4fc8b6fb966">
+    </UnitTestResult>
+    <UnitTestResult executionId="2272f5a8-178e-4db2-856e-3a447e8f0d22" testId="6c8df1ec-06c0-af4a-79e3-dc6ecb61ad1f" testName="checkTimeInIntervalsWhenTimeIsNotInAnyIntervalTest" computerName="DAVIS-PC" duration="00:00:00.0016145" startTime="2018-02-28T02:27:55.6754681-05:00" endTime="2018-02-28T02:27:55.6934691-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2272f5a8-178e-4db2-856e-3a447e8f0d22">
+    </UnitTestResult>
+    <UnitTestResult executionId="5c2c1f3a-82a6-4c72-8b5a-80425568daea" testId="7477e6a1-93af-227d-19e5-f30e34b27230" testName="checkTimeInIntervalsWhenTimeIsInInterval2Test" computerName="DAVIS-PC" duration="00:00:00.0058081" startTime="2018-02-28T02:27:55.6974693-05:00" endTime="2018-02-28T02:27:55.7174705-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c2c1f3a-82a6-4c72-8b5a-80425568daea">
+    </UnitTestResult>
+    <UnitTestResult executionId="ef78bfee-69b6-4881-9548-0672e1ff5363" testId="7c45eddb-b146-c3c1-aae9-d49646e3bdab" testName="DateConstructorTest" computerName="DAVIS-PC" duration="00:00:00.0053236" startTime="2018-02-28T02:27:55.7274711-05:00" endTime="2018-02-28T02:27:55.7384717-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef78bfee-69b6-4881-9548-0672e1ff5363">
+    </UnitTestResult>
+    <UnitTestResult executionId="0ccf19b4-bc32-4139-be43-e4ec96726a42" testId="9a633d35-bb77-620b-735a-4b2bc2fa526a" testName="ValidationConstructorTest" computerName="DAVIS-PC" duration="00:00:00.0013279" startTime="2018-02-28T02:27:55.7434720-05:00" endTime="2018-02-28T02:27:55.7594729-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ccf19b4-bc32-4139-be43-e4ec96726a42">
+    </UnitTestResult>
+    <UnitTestResult executionId="c1248bee-3234-4783-8419-910b62ad70f6" testId="9bc7919b-9f5b-8183-2912-3f4b59690929" testName="getPlateTest" computerName="DAVIS-PC" duration="00:00:00.0006294" startTime="2018-02-28T02:27:55.7614730-05:00" endTime="2018-02-28T02:27:55.7724736-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1248bee-3234-4783-8419-910b62ad70f6">
+    </UnitTestResult>
+    <UnitTestResult executionId="9ac58c78-ef6f-4975-96d6-616287ff4613" testId="a211ba70-35ec-e259-365b-14fe87d9a523" testName="hasCorrectFormatWhenIsNotCorrectTest" computerName="DAVIS-PC" duration="00:00:00.0015579" startTime="2018-02-28T02:27:55.7744738-05:00" endTime="2018-02-28T02:27:55.7914747-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ac58c78-ef6f-4975-96d6-616287ff4613">
+    </UnitTestResult>
+    <UnitTestResult executionId="99c9e291-d5e6-4b03-8ef5-b7fe0f2cbe81" testId="a636e3ce-8cdf-eec8-1199-ad7cd4869e03" testName="getPicoPlacaDayOfPlateWhenDayisMonday2Test" computerName="DAVIS-PC" duration="00:00:00.1212825" startTime="2018-02-28T02:27:55.7944749-05:00" endTime="2018-02-28T02:27:55.9314827-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99c9e291-d5e6-4b03-8ef5-b7fe0f2cbe81">
+    </UnitTestResult>
+    <UnitTestResult executionId="0256e48d-c4c7-4384-bff2-acf911693c78" testId="b1195f37-acad-2bd4-6150-51b267e10b8e" testName="getPicoPlacaDayOfPlateWhenDayisTuesdayTest" computerName="DAVIS-PC" duration="00:00:00.0067503" startTime="2018-02-28T02:27:55.9554841-05:00" endTime="2018-02-28T02:27:55.9774854-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0256e48d-c4c7-4384-bff2-acf911693c78">
+    </UnitTestResult>
+    <UnitTestResult executionId="da94ec12-1b5e-42c2-b6be-783a4c18c5ad" testId="b14be646-4889-bafb-827e-dab299e5f65f" testName="checkTimeInIntervalsWhenTimeIsInInterval1Test" computerName="DAVIS-PC" duration="00:00:00.0013967" startTime="2018-02-28T02:27:55.9894860-05:00" endTime="2018-02-28T02:27:56.0034869-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da94ec12-1b5e-42c2-b6be-783a4c18c5ad">
+    </UnitTestResult>
+    <UnitTestResult executionId="6601d055-674d-4a23-9d59-ceb0bbf71d4e" testId="ba8bc033-c76e-637c-d4cf-49df988eb7fd" testName="PlateTest" computerName="DAVIS-PC" duration="00:00:00.0016323" startTime="2018-02-28T02:27:56.0054870-05:00" endTime="2018-02-28T02:27:56.0234880-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6601d055-674d-4a23-9d59-ceb0bbf71d4e">
+    </UnitTestResult>
+    <UnitTestResult executionId="261cfa05-4f50-4f53-ba8f-76fb4250b920" testId="c172d27d-1725-8d45-ad4b-8b860c8ab8d1" testName="getPicoPlacaDayOfPlateWhenDayisThursday2Test" computerName="DAVIS-PC" duration="00:00:00.0058343" startTime="2018-02-28T02:27:56.0274882-05:00" endTime="2018-02-28T02:27:56.0464893-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="261cfa05-4f50-4f53-ba8f-76fb4250b920">
+    </UnitTestResult>
+    <UnitTestResult executionId="fb94169a-79d5-4737-a3fd-7059aa73680f" testId="c689a220-8c8b-01b5-be0a-6f4025ccb33b" testName="TimeConstructorTest" computerName="DAVIS-PC" duration="00:00:00.0010744" startTime="2018-02-28T02:27:56.0594901-05:00" endTime="2018-02-28T02:27:56.0644903-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb94169a-79d5-4737-a3fd-7059aa73680f">
+    </UnitTestResult>
+    <UnitTestResult executionId="62c27654-b40a-4791-a3c7-afeabb433f23" testId="c891b938-1156-5e72-5902-b4e2ca087abf" testName="verifyPlateTestWithRightFormat" computerName="DAVIS-PC" duration="00:00:00.0054953" startTime="2018-02-28T02:27:56.0674905-05:00" endTime="2018-02-28T02:27:56.0874917-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62c27654-b40a-4791-a3c7-afeabb433f23">
+    </UnitTestResult>
+    <UnitTestResult executionId="60179b09-1b1d-42f4-8677-e97684641187" testId="d0fd6fc2-5467-6a6e-dfa7-6b59a8e3cfa9" testName="getPicoPlacaDayOfPlateWhenPlateisIncorrectTest" computerName="DAVIS-PC" duration="00:00:00.0070348" startTime="2018-02-28T02:27:56.0994923-05:00" endTime="2018-02-28T02:27:56.1104930-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60179b09-1b1d-42f4-8677-e97684641187">
+    </UnitTestResult>
+    <UnitTestResult executionId="92dbe2a5-97a7-44f9-8156-68e1aae6c2b9" testId="d18c4972-fa94-6825-d72f-3596e80cebe2" testName="getPicoPlacaDayOfPlateWhenDayisTuesday2Test" computerName="DAVIS-PC" duration="00:00:00.0010472" startTime="2018-02-28T02:27:56.1214936-05:00" endTime="2018-02-28T02:27:56.1264939-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92dbe2a5-97a7-44f9-8156-68e1aae6c2b9">
+    </UnitTestResult>
+    <UnitTestResult executionId="324fb06b-af85-4bc3-a967-ef8de05b8576" testId="f2e4a6dc-a64e-bf95-7a43-1311308f6220" testName="getPicoPlacaDayOfPlateWhenDayisWednesday1Test" computerName="DAVIS-PC" duration="00:00:00.0013869" startTime="2018-02-28T02:27:56.1284940-05:00" endTime="2018-02-28T02:27:56.1454950-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="324fb06b-af85-4bc3-a967-ef8de05b8576">
+    </UnitTestResult>
+    <UnitTestResult executionId="e588f598-a676-4357-b7f3-1970bcddd0ac" testId="f481ecc7-e114-aea7-0081-11eb4f98100f" testName="getDayOfTheWeekFromDateTest" computerName="DAVIS-PC" duration="00:00:00.0060217" startTime="2018-02-28T02:27:56.1474951-05:00" endTime="2018-02-28T02:27:56.1684963-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e588f598-a676-4357-b7f3-1970bcddd0ac">
+    </UnitTestResult>
+    <UnitTestResult executionId="8a970d81-8579-4273-90a4-9aa6feec02bf" testId="ff122efc-5fef-0112-e34a-7da52c9b85d9" testName="hasCorrectFormatWhenIsCorrectTest" computerName="DAVIS-PC" duration="00:00:00.0054405" startTime="2018-02-28T02:27:56.1794969-05:00" endTime="2018-02-28T02:27:56.1884974-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a970d81-8579-4273-90a4-9aa6feec02bf">
+    </UnitTestResult>
+  </Results>
+</TestRun>

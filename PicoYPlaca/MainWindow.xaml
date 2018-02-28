@@ -1,0 +1,47 @@
+﻿<Window x:Class="PicoYPlaca.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" xmlns:my="clr-namespace:ComponentArt.Win.UI.Navigation;assembly=ComponentArt.Win.UI.Navigation">
+    <Grid Name="external">
+        <Grid HorizontalAlignment="Left" Name="innerGrid" VerticalAlignment="Top" Height="Auto" Width="700">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFE8E5E5" Offset="0" />
+                    <GradientStop Color="White" Offset="0.393" />
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="400" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="35" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="35" />
+                <RowDefinition Height="35" />
+                <RowDefinition Height="35" />
+                <RowDefinition Height="35" />
+                <RowDefinition Height="35" />
+                <RowDefinition Height="35" />
+                <RowDefinition Height="35*" />
+                <RowDefinition Height="35*" />
+                <RowDefinition Height="35*" />
+                <RowDefinition Height="35*" />
+                <RowDefinition Height="35*" />
+
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Label Grid.Column="1" Grid.Row="0" Height="30" Margin="8,4,8,4" Name="mainTitle" VerticalAlignment="Top" Width="160" FontStyle="Italic"  Foreground="Brown" Content="Pico y Placa Predictor"/>
+            <Label Grid.Column="0" Grid.Row="2" Height="30" Margin="8,4,8,4" Name="plateLabel" VerticalAlignment="Top" Width="100" FontStyle="Italic"  Foreground="Brown" Content="Placa:"/>
+            <TextBox Grid.Column="1" Grid.Row="2" Height="30" Width="115" HorizontalAlignment="Left" Margin="8,4,8,4" Name="txtPlate" Text="Placa" VerticalAlignment="Top" Grid.RowSpan="6" />
+            <Label Grid.Column="0" Grid.Row="3" Height="30" Margin="8,4,8,4" Name="dateLabel" VerticalAlignment="Top" Width="100" FontStyle="Italic"  Foreground="Brown" Content="Fecha:"/>
+            <DatePicker Grid.Column="1" Grid.Row="3" Height="30" HorizontalAlignment="Left" Margin="8,4,8,4" Name="datePicker" VerticalAlignment="Top" Width="115" />
+            <Label Grid.Column="0" Grid.Row="4" Height="30" Margin="8,4,8,4" Name="timeLabel" VerticalAlignment="Top" Width="100" FontStyle="Italic"  Foreground="Brown" Content="Hora:"/>
+            <TextBox Grid.Column="1" Grid.Row="4" Height="30" Width="115" HorizontalAlignment="Left" Margin="8,4,8,4" Name="txtTime" Text="Hora" VerticalAlignment="Top" Grid.RowSpan="6" MaxLength="8" />
+            <Button Content="Verificar" Grid.Column="1" Grid.Row="6" Grid.RowSpan="2" Height="30" HorizontalAlignment="Left" Margin="8,4,8,4" Name="btnVerify" VerticalAlignment="Top" Width="115" Click="btnVerify_Click" />
+            <Label Content="Result" Grid.Column="1" Grid.Row="7" Grid.RowSpan="2" Height="28" HorizontalAlignment="Left" Margin="8,4,8,4" Name="result" VerticalAlignment="Top" />
+        </Grid>
+    </Grid>
+</Window>
